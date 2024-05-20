@@ -127,7 +127,7 @@ This project is initially focusing on doing as much detection locally as possibl
 The local detection architecture is illustrated below:
 ![Diagram2](https://github.com/triviatroy/FortniteAI/assets/75331477/b767d8c0-21c3-4532-949b-292f1d5ad36b)
 
-The key element in the above diagram is that we use separate & distinct image classifiers for each observation type. The alternative is to use 1 convolutional nueural network for all detection. The advantage of using 1 cnn vs distinct CNN is simplified inference pipeline where you just have to pipe the pixels to 1 model, where the disadvantage is training complexity & inference memory requirements (and potentially speed). The advantage of having distinct CNNs is simplified training and super low inference memeory requirements.
+The key element in the above diagram is that we use separate & distinct image classifiers for each observation type. The alternative is to use 1 convolutional nueural network for all detection. The advantage of using 1 CNN vs distinct CNNs is simplified inference pipeline where you just have to pipe the pixels to 1 model, where the disadvantage is training complexity & inference memory requirements (and potentially speed). The advantage of having distinct CNNs is simplified training and super low inference memeory requirements.
 
 ## Image Classifiers
 
