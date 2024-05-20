@@ -1,0 +1,2 @@
+# FortniteAI
+Fortnite AI Bot
